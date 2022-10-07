@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="./imagens/logo.png" alt="Logo da empresa Internet general" width="200px"/>
+            <!--Início do menu do site-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <!--Início da section do conteúdo do site-->
+        <section>
+            <!--conteúdo de texto sobre o site-->
+            <article>
+                <h1>Formulário de Contato</h1>
+                <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+
+                <fieldset>
+                    <legend>
+                        <h5>Dados de Contato</h5>
+                    </legend>
+                    <form id="frmInscricao" action="contato.php" method="post">
+                        <label>Nome:</label><br>
+                        <input type="text" required="required" id="txtNome" maxlength="100px" size="50"><br><br>
+                        <label>Data de nascimento:</label><br>
+                        <input type="date" required="required" id="txtDataNascimento"><br><br>
+                    </form>
+                </fieldset>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./imagens/instagram.png" alt="icone instagram" width="60px"/>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./imagens/facebook.png" alt="icone facebook" width="60px"/>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./imagens/sinal-do-twitter.png" alt="icone twitter" width="60px"/>
+                </a>
+            </li>
+            <!--Fim das redes sociais-->
+        </ul>
+     <!--Fim do footer-->
+    </footer>
+</body>
+</html>
